@@ -100,9 +100,9 @@ export interface SpaceProps<TLength = TLengthStyledSystem> {
     /** Margin on left */
     marginLeft?: ResponsiveValue<CSS.MarginLeftProperty<TLength>>;
     /** Margin on left and right */
-    mx?: ResponsiveValue<CSS.PaddingProperty<TLength>>;
+    mx?: ResponsiveValue<CSS.MarginProperty<TLength>>;
     /** Margin on top and bottom */
-    my?: ResponsiveValue<CSS.PaddingProperty<TLength>>;
+    my?: ResponsiveValue<CSS.MarginProperty<TLength>>;
     /** Padding on top, left, bottom and right */
     p?: ResponsiveValue<CSS.PaddingProperty<TLength>>;
     /** Padding on top, left, bottom and right */
